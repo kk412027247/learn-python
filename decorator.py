@@ -78,5 +78,4 @@ def message(fn):
     def wrapper(*args, **kw):
         print('begin call')
         return fn(*args, **kw)
-
     return wrapper
