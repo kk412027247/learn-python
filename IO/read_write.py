@@ -12,3 +12,4 @@ print(f.read())
 
 with open('./test.txt', 'w') as f:
     f.write('Hello, sucker')
+
