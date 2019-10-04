@@ -7,12 +7,11 @@ class Application(Frame):
         self.pack()
         self.createWidgets()
 
-
-def createWidgets(self):
-    self.helloLabel = Label(self, text='Hello, world!')
-    self.helloLabel.pack()
-    self.quitButton = Button(self, text='Quit', command=self.quit)
-    self.quitButton.pack()
+    def createWidgets(self):
+        self.helloLabel = Label(self, text='Hello, world!')
+        self.helloLabel.pack()
+        self.quitButton = Button(self, text='Quit', command=self.quit)
+        self.quitButton.pack()
 
 
 app = Application()
